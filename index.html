@@ -11,6 +11,8 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+
 		<style>
 			section{
 				width:100vw;
@@ -20,14 +22,22 @@
 			.cl_white{
 				color:white;
 			}
+			img{
+				width: 375px;
+				height: 300px;
+				transition: opacity 1s ease-in-out;
+			}
+			img:hover{
+				opacity:.5;
+			}
 		</style>
 	</head>
 	<body data-spy="scroll" data-target=".navbar">
 		
 		<nav class="navbar navbar-inverse navbar-fixed-bottom">
 			<ul class="nav navbar-nav">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">What I do</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">What I do</a></li>
 				<li><a href="#">What about me</a></li>
 				<li><a href="#">Contact me</a></li>
 			</ul>
@@ -37,6 +47,20 @@
 			<h1>My Portfolio</h1>
 			<p class="lead">Let just read myself and contact Me!</p>
 			<button class="btn btn-default">Contact me!</button>
+		</section>
+		<section id="about" class="container">
+			<div class="page-header">
+				<h1 class="text-center">My Work</h1>
+			</div>
+			<img src="images/1.jpg" class="img-thumbnail">
+			<img src="images/2.jpg" class="img-thumbnail">
+			<img src="images/3.jpg" class="img-thumbnail">
+			<img src="images/4.jpg" class="img-thumbnail">
+			<img src="images/5.jpg" class="img-thumbnail">
+			<img src="images/6.jpg" class="img-thumbnail">
+		</section>
+		<section class="container">
+		
 		</section>
 	</body>
 
