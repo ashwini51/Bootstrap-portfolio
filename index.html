@@ -11,4 +11,33 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			section{
+				width:100vw;
+				height:100vh;
+				padding:50px;
+			}
+			.cl_white{
+				color:white;
+			}
+		</style>
 	</head>
+	<body data-spy="scroll" data-target=".navbar">
+		
+		<nav class="navbar navbar-inverse navbar-fixed-bottom">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">What I do</a></li>
+				<li><a href="#">What about me</a></li>
+				<li><a href="#">Contact me</a></li>
+			</ul>
+		</nav>
+		
+		<section id="home" style="background: url(images/home.jpg); background-size: 100% 100%" class="cl_white text-center">
+			<h1>My Portfolio</h1>
+			<p class="lead">Let just read myself and contact Me!</p>
+			<button class="btn btn-default">Contact me!</button>
+		</section>
+	</body>
+
+</html>	
